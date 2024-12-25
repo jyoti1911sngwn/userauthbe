@@ -4,7 +4,7 @@ services:
     env: node
     region: oregon # Choose the appropriate region for your deployment
     buildCommand: npm install
-    startCommand: node src/index.js
+    startCommand: node index.js
     autoDeploy: true
     plan: free # Use 'starter' or other plans if required
     envVars:

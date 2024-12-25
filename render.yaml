@@ -11,4 +11,4 @@ services:
       - key: NODE_ENV
         value: production
       - key: PORT
-        value: 3000 # Port on which your app listens
+        value: 5000 # Port on which your app listens
